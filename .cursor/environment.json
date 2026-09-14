@@ -1,0 +1,17 @@
+{
+  "name": "Periodontist Scraper",
+  "install": "./scripts/cloud-agent-install.sh",
+  "ports": [
+    {
+      "name": "web",
+      "port": 5050
+    }
+  ],
+  "terminals": [
+    {
+      "name": "web",
+      "command": "source .venv/bin/activate && python -m periodontist_scraper --web",
+      "description": "Flask web UI for running demo scrapes and downloading CSV/Excel exports."
+    }
+  ]
+}
