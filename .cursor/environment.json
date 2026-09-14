@@ -1,5 +1,6 @@
 {
   "name": "Periodontist Scraper",
+  "snapshot": "snapshot-20260914-7c7fd4b9-ac0e-4c38-8f72-bd440c47ec09",
   "install": "./scripts/cloud-agent-install.sh",
   "ports": [
     {
