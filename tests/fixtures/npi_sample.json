@@ -1,0 +1,70 @@
+{
+  "result_count": 2,
+  "results": [
+    {
+      "addresses": [
+        {
+          "address_1": "706 E BELL RD",
+          "address_2": "SUITE 104",
+          "address_purpose": "LOCATION",
+          "city": "PHOENIX",
+          "country_code": "US",
+          "postal_code": "85022",
+          "state": "AZ",
+          "telephone_number": "602-867-7700"
+        }
+      ],
+      "basic": {
+        "credential": "DDS",
+        "enumeration_date": "2006-02-14",
+        "first_name": "ALEXANDRE",
+        "last_name": "AALAM",
+        "name_prefix": "--",
+        "status": "A"
+      },
+      "endpoints": [],
+      "enumeration_type": "NPI-1",
+      "number": "1780658039",
+      "taxonomies": [
+        {
+          "code": "1223P0300X",
+          "desc": "Dentist, Periodontics",
+          "license": "D6368",
+          "primary": true,
+          "state": "AZ"
+        }
+      ]
+    },
+    {
+      "addresses": [
+        {
+          "address_1": "3005 PETERS CREEK RD NW",
+          "address_purpose": "LOCATION",
+          "city": "ROANOKE",
+          "country_code": "US",
+          "postal_code": "240192738",
+          "state": "VA",
+          "telephone_number": "540-562-3166"
+        }
+      ],
+      "basic": {
+        "credential": "DDS, MS",
+        "enumeration_date": "2007-05-21",
+        "first_name": "GAVIN",
+        "last_name": "AARON",
+        "name_prefix": "Dr.",
+        "status": "A"
+      },
+      "number": "1114136926",
+      "taxonomies": [
+        {
+          "code": "1223P0300X",
+          "desc": "Dentist, Periodontics",
+          "license": "0401410685",
+          "primary": true,
+          "state": "VA"
+        }
+      ]
+    }
+  ]
+}

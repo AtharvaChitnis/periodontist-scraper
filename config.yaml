@@ -1,0 +1,43 @@
+query: periodontist
+location: ""
+registry: web_search
+state: ""
+city: ""
+all_states: false
+max_results: 15
+max_pages: 15
+timeout_seconds: 20
+request_delay_seconds: 1.0
+respect_robots_txt: true
+user_agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+source_registry: web_search
+default_country: United States
+search:
+  provider: duckduckgo
+  custom_search_url: ""
+allowed_url_keywords:
+  - periodont
+  - perio
+  - dentist
+  - dental
+  - npi
+  - healthgrades
+  - zocdoc
+  - vitals
+  - webmd
+  - dds
+  - dmd
+blocked_url_keywords:
+  - wikipedia.org
+  - facebook.com
+  - instagram.com
+  - twitter.com
+  - x.com
+  - linkedin.com
+  - youtube.com
+  - pinterest.com
+  - reddit.com
+output:
+  csv: data/periodontists.csv
+  excel: data/periodontists.xlsx
+  sqlite: data/periodontists.db
